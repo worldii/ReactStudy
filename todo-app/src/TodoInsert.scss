@@ -1,0 +1,35 @@
+.TodoInsert {
+  display: flex;
+  background: black;
+  input {
+    background: none;
+    flex: 1;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    font-family: "PretendardVariable";
+
+    line-height: 1.5;
+    color: white;
+    &::placeholder {
+      color: #dee2e6;
+    }
+  }
+  button {
+    background: grey;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: "PretendardVariable";
+
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #adb5bd;
+    }
+  }
+}

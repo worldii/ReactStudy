@@ -1,0 +1,19 @@
+.PetListItem {
+  padding: 10px;
+  .PetListItemPrice {
+    color: red;
+  }
+  .PetListItemTitle {
+    font-weight: bold;
+  }
+  .PetListItemImage {
+    padding: 5px;
+    object-fit: cover;
+  }
+  .PetListItemDescription {
+    font-size: small;
+  }
+  .PetListItemDate {
+    font-size: small;
+  }
+}
